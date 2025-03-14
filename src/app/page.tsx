@@ -43,7 +43,7 @@ export default function HeroHighlightDemo() {
         variants={fadeInUp}
         transition={{ duration: 0.5 }}
       >
-        <Projects />
+        
       </motion.div>
 
       {/* Work Experience Section */}
@@ -74,6 +74,7 @@ export default function HeroHighlightDemo() {
         transition={{ duration: 0.5, delay: 0.4 }}
       >
         <GithubCalender />
+        <Projects />
       </motion.div>
 
       {/* Contact Form Section */}
