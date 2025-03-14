@@ -10,7 +10,7 @@ import frescoGuardImg from "../../public/frescoGuard.png";
 import gitImg from "../../public/git.png";
 import vercelLiteImg from "../../public/vercelLite.png";
 import pysqlImg from "../../public/pysql.png";
-
+import smartbudget from "../../public/smartbudget.png";
 export const projectList = [
   {
     id: 1,
@@ -161,6 +161,32 @@ export const projectList = [
     ],
     detailedDescription:
       "A deep learning project focused on recognizing handwritten digits using Convolutional Neural Networks. The project is implemented in a Jupyter notebook environment, demonstrating the complete workflow from data preprocessing to model evaluation. Uses the MNIST dataset and TensorFlow/Keras for building and training the neural network.",
+  },
+  {
+    id: 8,
+    title: "SmartBudget AI - Expense Tracker & Financial Advisor",
+    category: "Full-Stack",
+    image: smartbudget,
+    description:
+      "Developed a powerful AI-driven expense tracker and financial advisor using Next.js, Tailwind CSS, and OpenAI API. Users can input their income, expenses, and budgets to receive personalized financial insights. The app features authentication via Clerk, real-time financial tracking, and AI-generated budget recommendations.",
+    tech: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+      "https://www.gstatic.com/lamda/images/favicon_v1_150160cddff7f294ce30.svg",
+    ],
+    url: "https://smartbudget-ai.vercel.app/",
+    github: "https://github.com/TheOneWithChair/ai-finance-tracking",
+    features: [
+      "AI-powered financial advice and budget recommendations",
+      "Real-time expense tracking and analytics",
+      "Secure authentication using Clerk",
+      "Integration with OpenAI for personalized financial insights",
+      "Interactive dashboard with visualized spending trends"
+    ],
+    detailedDescription:
+      "SmartBudget AI is a state-of-the-art financial management tool built with Next.js and Tailwind CSS. It allows users to track expenses, set budgets, and receive AI-generated financial advice based on their spending patterns. The project features authentication through Clerk, database management via PostgreSQL (Neon), and seamless integration with OpenAI to provide intelligent financial insights. With a sleek UI powered by Shadcn and Aceternity UI, SmartBudget AI offers a seamless and intuitive budgeting experience.",
   },
 ];
 
