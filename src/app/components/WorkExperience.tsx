@@ -11,7 +11,7 @@ export default function WorkExp() {
                 {/* Research Experience */}
                 <div className="mb-10">
                     <h2 className="bg-black text-white rounded-full text-sm w-fit mb-2">
-                        May 2023 – September 2023
+                        May 2024 – September 2024
                     </h2>
                     <p className="text-2xl mb-4">
                         Researcher – Artificial Intelligence
@@ -41,7 +41,7 @@ export default function WorkExp() {
                 {/* Internship Experience */}
                 <div className="mb-10">
                     <h2 className="bg-black text-white rounded-full text-sm w-fit mb-2">
-                        October 25, 2023 – December 31, 2023
+                        October 25, 2024 – December 31, 2024
                     </h2>
                     <p className="text-2xl mb-4">
                         AI & Full-Stack Developer Intern – <a href="https://www.infosys.com/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">Infosys</a>
