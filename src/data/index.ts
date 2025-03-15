@@ -19,7 +19,7 @@ export const projectList = [
     category: "Full-Stack",
     image: aimock,
     description:
-      "Built an AI-powered mock interview platform using Next.js and Gemini API that conducts realistic technical interviews, records responses, and provides detailed feedback. Features user authentication via Clerk, persistent interview history with PostgreSQL, and real-time AI feedback on communication skills and technical accuracy.",
+      "Built an AI-powered mock interview platform using Next.js,Postgresql,shadcn and Gemini API that conducts realistic technical interviews, records responses, and provides detailed feedback. Features user authentication via Clerk, persistent interview history with PostgreSQL, and real-time AI feedback on communication skills and technical accuracy.",
     tech: [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
@@ -102,7 +102,6 @@ export const projectList = [
       "Developed a Multi-Agent AI System from scratch using Groq’s LLMs and Streamlit. Designed specialized agents for research assistance, data sanitization, and quality validation without using orchestration frameworks.",
     tech: [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/groq/groq-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg"
     ],
     url: "https://multiagentai.streamlit.app/",
@@ -195,7 +194,7 @@ export const projectList = [
     category: "Full-Stack",
     image: smartbudget,
     description:
-      "Developed a powerful AI-driven expense tracker and financial advisor using Next.js, Tailwind CSS, and groq AI API. Users can input their income, expenses, and budgets to receive personalized financial insights. The app features authentication via Clerk, real-time financial tracking, and AI-generated budget recommendations.",
+      "Developed a powerful AI-driven expense tracker and financial advisor using Next.js, Postgresql, Tailwind CSS, and groq AI API. Users can input their income, expenses, and budgets to receive personalized financial insights. The app features authentication via Clerk, real-time financial tracking, and AI-generated budget recommendations.",
     tech: [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
