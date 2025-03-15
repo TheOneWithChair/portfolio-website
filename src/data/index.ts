@@ -12,6 +12,7 @@ import vercelLiteImg from "../../public/vercelLite.png";
 import pysqlImg from "../../public/pysql.png";
 import smartbudget from "../../public/smartbudget.png";
 import multiAgentImg from "../../public/multi-agent.png";
+import dreampixel from "../../public/dreampixel.png";
 export const projectList = [
   {
     id: 1,
@@ -214,7 +215,32 @@ export const projectList = [
     detailedDescription:
       "SmartBudget AI is a state-of-the-art financial management tool built with Next.js and Tailwind CSS. It allows users to track expenses, set budgets, and receive AI-generated financial advice based on their spending patterns. The project features authentication through Clerk, database management via PostgreSQL (Neon), and seamless integration with groq AI api to provide intelligent financial insights. With a sleek UI powered by Shadcn and Aceternity UI, SmartBudget AI offers a seamless and intuitive budgeting experience.",
   },
- 
+  {
+    id: 9,
+    title: "DreamPixel - AI-Powered Text-to-Image Generator",
+    category: "Full-Stack",
+    image: dreampixel, // Replace with actual image import or URL
+    description:
+      "Developed an AI-driven text-to-image generator using MongoDB, Express.js, React, and Node.js. DreamPixel allows users to generate high-quality images based on text prompts using deep learning models. The app features authentication, real-time image generation, and an intuitive user interface.",
+    tech: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+      "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+    ],
+    url: "https://dream-pixel.vercel.app/",
+    github: "https://github.com/TheOneWithChair/DreamPixel",
+    features: [
+      "AI-powered text-to-image generation",
+      "User-friendly interface for prompt-based image creation",
+      "Real-time image processing and rendering",
+      "Secure authentication and user history tracking",
+      "Efficient backend architecture using MERN stack"
+    ],
+    detailedDescription:
+      "DreamPixel is a full-stack AI SaaS application built with the MERN stack (MongoDB, Express.js, React, and Node.js). It leverages advanced AI models to generate stunning images from text descriptions. The application includes secure authentication, a responsive and interactive UI, and a backend optimized for high-performance image processing. DreamPixel offers a seamless experience for artists, designers, and AI enthusiasts looking to create unique visuals effortlessly."
+  }
+
 ];
 
 export const skills = [
