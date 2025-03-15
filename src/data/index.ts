@@ -11,6 +11,7 @@ import gitImg from "../../public/git.png";
 import vercelLiteImg from "../../public/vercelLite.png";
 import pysqlImg from "../../public/pysql.png";
 import smartbudget from "../../public/smartbudget.png";
+import multiAgentImg from "../../public/multi-agent.png";
 export const projectList = [
   {
     id: 1,
@@ -188,6 +189,32 @@ export const projectList = [
     detailedDescription:
       "SmartBudget AI is a state-of-the-art financial management tool built with Next.js and Tailwind CSS. It allows users to track expenses, set budgets, and receive AI-generated financial advice based on their spending patterns. The project features authentication through Clerk, database management via PostgreSQL (Neon), and seamless integration with groq AI api to provide intelligent financial insights. With a sleek UI powered by Shadcn and Aceternity UI, SmartBudget AI offers a seamless and intuitive budgeting experience.",
   },
+  {
+    id: 9,
+    title: "Multi-Agent AI Research Assistant",
+    category: "AI",
+    image: multiAgentImg,
+    description:
+      "Developed a Multi-Agent AI System from scratch using Groq’s LLMs and Streamlit. Designed specialized agents for research assistance, data sanitization, and quality validation without using orchestration frameworks.",
+    tech: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/groq/groq-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg"
+    ],
+    url: "https://multiagentai.streamlit.app/",
+    github: "https://github.com/TheOneWithChair/Multi-Agent-AI-Research_Assistant",
+    features: [
+      "Summarize medical texts using AI",
+      "Write detailed research articles based on an outline",
+      "Sanitize medical data by removing PHI (Protected Health Information)",
+      "Implement validator agents to ensure accuracy and quality",
+      "Comprehensive logging for debugging and tracking",
+      "Interactive and user-friendly Streamlit interface"
+    ],
+    detailedDescription:
+      "A Python-based Multi-Agent AI system built using Groq’s LLMs and Streamlit. The project enables efficient research assistance by summarizing documents, generating articles, and sanitizing sensitive data. It ensures high-quality outputs using validator agents and features robust logging mechanisms for monitoring and debugging."
+}
+
 ];
 
 export const skills = [
