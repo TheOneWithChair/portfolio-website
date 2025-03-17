@@ -276,14 +276,6 @@ export const skills = [
     name: "Python",
   },
   {
-    url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
-    name: "NextJS",
-  },
-  {
-    url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-    name: "React",
-  },
-  {
     url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
     name: "CSS",
   },
