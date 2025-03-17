@@ -10,25 +10,26 @@ export default function WorkExp() {
             <div className="max-w-2xl mx-auto antialiased px-4 pt-4 relative">
                  {/* Internship Experience */}
                  <div className="mb-10">
-                    <h2 className="bg-black text-white rounded-full text-sm w-fit mb-2">
-                        October 25, 2024 – December 31, 2024
-                    </h2>
-                    <p className="text-2xl mb-4">
-                        AI & Full-Stack Developer Intern – <a href="https://www.infosys.com/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">Infosys</a>
-                    </p>
-                    <div className="text-md text-gray-400 px-4 prose prose-sm dark:prose-invert">
-                        <div className="pl-4">
-                            <ul className="list-disc">
-                                <li>Worked on an AI-powered Traffic Instructor System, combining Deep Learning & Full-Stack technologies</li>
-                                <li>Tech Stack Used: Next.js (Frontend), Django & SQL (Backend), YOLO (Deep Learning)</li>
-                                <li>Implemented YOLO-based object detection for real-time vehicle & pedestrian classification</li>
-                                <li>Built a SQL & Django ORM database system to log and analyze traffic patterns</li>
-                                <li>Developed an interactive Next.js frontend for real-time traffic monitoring</li>
-                                <li>Integrated AI-driven analytics to optimize traffic control and reduce congestion</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+    <h2 className="bg-black text-white rounded-full text-sm w-fit mb-2">
+        October 25, 2024 – December 31, 2024
+    </h2>
+    <p className="text-2xl mb-4">
+        AI & Full-Stack Developer Intern (Team Leader) – <a href="https://www.infosys.com/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">Infosys</a>
+    </p>
+    <div className="text-md text-gray-400 px-4 prose prose-sm dark:prose-invert">
+        <div className="pl-4">
+            <ul className="list-disc">
+                <li>Led a team in developing an AI-powered Traffic Instructor System, combining Deep Learning & Full-Stack technologies</li>
+                <li>Tech Stack Used: Next.js (Frontend), Django & SQL (Backend), YOLO (Deep Learning)</li>
+                <li>Implemented YOLO-based object detection for real-time vehicle & pedestrian classification</li>
+                <li>Built a SQL database using Django ORM to log and analyze traffic patterns</li>
+                <li>Developed an interactive Next.js frontend for real-time traffic monitoring</li>
+                <li>Integrated AI-driven analytics to optimize traffic control and reduce congestion</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
                 {/* Research Experience */}
                 <div className="mb-10">
                     <h2 className="bg-black text-white rounded-full text-sm w-fit mb-2">
