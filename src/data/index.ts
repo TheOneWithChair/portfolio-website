@@ -13,6 +13,7 @@ import pysqlImg from "../../public/pysql.png";
 import smartbudget from "../../public/smartbudget.png";
 import multiAgentImg from "../../public/multi-agent.png";
 import dreampixel from "../../public/dreampixel.png";
+import quantumquill from "../../public/quantumquill.png";
 export const projectList = [
   {
     id: 1,
@@ -239,7 +240,33 @@ export const projectList = [
     ],
     detailedDescription:
       "DreamPixel is a full-stack AI SaaS application built with the MERN stack (MongoDB, Express.js, React, and Node.js). It leverages advanced AI models to generate stunning images from text descriptions. The application includes secure authentication, a responsive and interactive UI, and a backend optimized for high-performance image processing. DreamPixel offers a seamless experience for artists, designers, and AI enthusiasts looking to create unique visuals effortlessly."
-  }
+  },
+  {
+    id: 10,
+    title: "QuantumQuill - AI-Powered Multi-Agent Research Assistant",
+    category: "Full-Stack",
+    image: quantumquill, // Replace with actual image import or URL
+    description:
+      "QuantumQuill is a next-generation research assistant that leverages multi-agent AI collaboration to summarize, refine, and validate research content with precision. Built using Next.js (TypeScript), Groq Mixtral-8x7B-32768, and an Express.js backend, this AI-powered tool enhances academic writing and research workflows.",
+    tech: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+      "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png"
+    ],
+    url: "https://quantumquill-ai.vercel.app/",
+    github: "https://github.com/TheOneWithChair/MultiAgent-Quantumquill",
+    features: [
+      "Multi-agent AI research content refinement",
+      "Smart summarization of complex research papers",
+      "AI-driven academic validation and compliance checks",
+      "Seamless user interface for interactive AI research assistance",
+      "Optimized performance using Next.js and Groq Mixtral models"
+    ],
+    detailedDescription:
+      "QuantumQuill is a full-stack AI research assistant that integrates advanced multi-agent AI models to streamline academic research. By leveraging Groq Mixtral-8x7B-32768 and an optimized Express.js backend, it provides intelligent summarization, refinement, and validation of research papers. The platform ensures content is polished, accurate, and adheres to academic standards. Designed for researchers, scholars, and students, QuantumQuill revolutionizes the way research is conducted, making it more efficient and precise."
+}
+
 
 ];
 
