@@ -46,7 +46,7 @@ export default function WorkExp() {
                                 <li>Published Research Papers:
                                     <ul className="list-disc pl-4 mt-2">
                                         <li>Transforming Blood Cell Detection and Classification with Advanced Deep Learning Models: A Comparative Study (Published on <a href="https://arxiv.org/abs/2410.15670" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">arXiv</a>)</li>
-                                        <li>Evaluating Machine Learning and Deep Learning Models for Accurate Stock Price Prediction (Presented at Microsoft CMT Conference)</li>
+                                        <li>Evaluating Machine Learning and Deep Learning Models for Accurate Stock Price Prediction (Presented at International Conference on Technology Enabled Economic Changes (InTech 2025).</li>
                                     </ul>
                                 </li>
                                 <li>Additional Research Projects:
