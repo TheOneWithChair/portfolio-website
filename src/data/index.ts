@@ -49,8 +49,8 @@ export const projectList = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg",
     ],
-    url: "https://github.com/siddanth-6365/pySql",
-    github: "https://github.com/siddanth-6365/pySql",
+    url: "https://arxiv.org/abs/2410.15670",
+    github: "https://github.com/TheOneWithChair/BloodNets",
     features: [],
   },
   {
@@ -65,8 +65,8 @@ export const projectList = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg",
       "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
     ],
-    url: "https://your-conference-paper-url",
-    github: "https://github.com/your-repo",
+    url: "https://github.com/TheOneWithChair/StockPrice_ML",
+    github: "https://github.com/TheOneWithChair/StockPrice_ML",
     features: [
       "Comparative analysis of ML/DL models",
       "Presented at Microsoft CMT Conference",
