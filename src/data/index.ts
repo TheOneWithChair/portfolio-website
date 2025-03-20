@@ -278,7 +278,7 @@ export const projectList = [
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
-    "/google-gemini.jpeg"
+    "https://www.gstatic.com/lamda/images/favicon_v1_150160cddff7f294ce30.svg"
   ],
   "url": "https://pdf-to-quiz-googlegemini.vercel.app/",
   "github": "https://github.com/TheOneWithChair/pdf-to-quiz-googlegemini",
