@@ -14,6 +14,7 @@ import smartbudget from "../../public/smartbudget.png";
 import multiAgentImg from "../../public/multi-agent.png";
 import dreampixel from "../../public/dreampixel.png";
 import quantumquill from "../../public/quantumquill.png";
+import pdfToQuiz from "../../public/pdftoquiz.png";
 export const projectList = [
   {
     id: 1,
@@ -265,7 +266,33 @@ export const projectList = [
     ],
     detailedDescription:
       "QuantumQuill is a full-stack AI research assistant that integrates advanced multi-agent AI models to streamline academic research. By leveraging Groq Mixtral-8x7B-32768 and an optimized Express.js backend, it provides intelligent summarization, refinement, and validation of research papers. The platform ensures content is polished, accurate, and adheres to academic standards. Designed for researchers, scholars, and students, QuantumQuill revolutionizes the way research is conducted, making it more efficient and precise."
+},
+{
+  "id": 11,
+  "title": "PDF-to-Quiz Generator - AI-Powered Learning Tool",
+  "category": "Full-Stack",
+  "image": pdfToQuiz, // Replace with actual image import or URL
+  "description": 
+    "PDF-to-Quiz Generator is an AI-powered learning tool that automatically transforms PDF documents into interactive quizzes, flashcards, and matching exercises. Utilizing Google's Gemini Pro AI model and built with Next.js, this tool enhances educational engagement and personalized learning experiences.",
+  "tech": [
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+    "/google-gemini.jpeg"
+  ],
+  "url": "https://pdf-to-quiz-googlegemini.vercel.app/",
+  "github": "https://github.com/TheOneWithChair/pdf-to-quiz-googlegemini",
+  "features": [
+    "Automated quiz generation from PDF documents",
+    "Interactive learning with AI-powered flashcards and exercises",
+    "Customizable quiz difficulty levels and question types",
+    "Seamless user experience with Next.js and Google Gemini Pro AI",
+    "Optimized for educators, students, and e-learning platforms"
+  ],
+  "detailedDescription":
+    "PDF-to-Quiz Generator is a full-stack AI-powered education tool designed to transform static PDF documents into interactive quizzes, flashcards, and exercises. Leveraging Google's Gemini Pro AI and Next.js, the platform intelligently extracts key concepts, generates questions, and adapts difficulty levels based on user preferences. Ideal for educators, students, and e-learning platforms, this tool makes studying more engaging and efficient."
 }
+
 
 
 ];
