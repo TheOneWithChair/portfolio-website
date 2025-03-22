@@ -15,6 +15,7 @@ import multiAgentImg from "../../public/multi-agent.png";
 import dreampixel from "../../public/dreampixel.png";
 import quantumquill from "../../public/quantumquill.png";
 import pdfToQuiz from "../../public/pdftoquiz.png";
+import charitasri from "../../public/portfolio.png";
 export const projectList = [
   {
     id: 1,
@@ -291,7 +292,33 @@ export const projectList = [
   ],
   "detailedDescription":
     "PDF-to-Quiz Generator is a full-stack AI-powered education tool designed to transform static PDF documents into interactive quizzes, flashcards, and exercises. Leveraging Google's Gemini Pro AI and Next.js, the platform intelligently extracts key concepts, generates questions, and adapts difficulty levels based on user preferences. Ideal for educators, students, and e-learning platforms, this tool makes studying more engaging and efficient."
+},
+{
+  "id": 12,
+  "title": "Charitasri - Personal Portfolio Website",
+  "category": "Full-Stack",
+  "image": charitasri, // Replace with actual image import or URL
+  "description": 
+    "Charitasri is a modern, fully responsive portfolio website showcasing projects, skills, and experience. Built with Next.js and Tailwind CSS, it provides a seamless user experience with smooth animations, interactive UI, and fast performance.",
+  "tech": [
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+  ],
+  "url": "https://charitasrig.vercel.app/",
+  "github": "https://charitasrig.vercel.app/",
+  "features": [
+    "Fully responsive and mobile-friendly design",
+    "Dynamic project showcase with GitHub integration",
+    "Smooth animations and interactive UI with Framer Motion",
+    "Contact form with email integration",
+    "SEO optimized and deployed on Vercel"
+  ],
+  "detailedDescription":
+    "The Charitasri Portfolio Website is a sleek and modern personal branding platform designed to highlight skills, projects, and experience. Built with Next.js, Tailwind CSS, and Framer Motion, it ensures a smooth and engaging user experience. The website includes sections for an about page, featured projects, technical skills, blog integration, and a contact form, making it a one-stop destination for showcasing professional achievements."
 }
+
 
 
 
