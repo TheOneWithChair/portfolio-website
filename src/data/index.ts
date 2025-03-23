@@ -487,4 +487,4 @@ export const commandsAnswers = {
 
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1qcFklJJQDXAiw6-tvyx2i2jh-_3HgxX7/view?usp=sharing";
+  "https://drive.google.com/file/d/12gLyD-ePErlfCg8Jjls5uMxRNlqvB8ca/view?usp=sharing";
